@@ -13,6 +13,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@master
       - name: Build
+        run: pod install
+      - name: Build
         run: |
           xcodebuild clean build -workspace SRSNetwork.xcworkspace -scheme SRSNetwork -destination "${destination}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
         env: 
