@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		344C39027B4EDE414AF80180 /* Pods_SRSNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8CCBD2EB456B8CDA002D294 /* Pods_SRSNetwork.framework */; };
+		4F4C861426994F4000D722A8 /* APIClientTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4C861326994F4000D722A8 /* APIClientTest.swift */; };
 		4F712D4A26690CE900FACFB5 /* SRSNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F712D4026690CE900FACFB5 /* SRSNetwork.framework */; };
 		4F712D4F26690CE900FACFB5 /* SRSNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F712D4E26690CE900FACFB5 /* SRSNetworkTests.swift */; };
 		4F712D5126690CE900FACFB5 /* SRSNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F712D4326690CE900FACFB5 /* SRSNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		408D8DB8B8E264B218BF5E0E /* Pods-SRSNetwork-SRSNetworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRSNetwork-SRSNetworkTests.release.xcconfig"; path = "Target Support Files/Pods-SRSNetwork-SRSNetworkTests/Pods-SRSNetwork-SRSNetworkTests.release.xcconfig"; sourceTree = "<group>"; };
+		4F4C861326994F4000D722A8 /* APIClientTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientTest.swift; sourceTree = "<group>"; };
 		4F527C7801BF027CD1C7780E /* Pods_SRSNetwork_SRSNetworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SRSNetwork_SRSNetworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F712D4026690CE900FACFB5 /* SRSNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SRSNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F712D4326690CE900FACFB5 /* SRSNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRSNetwork.h; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				4F712D4E26690CE900FACFB5 /* SRSNetworkTests.swift */,
+				4F4C861326994F4000D722A8 /* APIClientTest.swift */,
 				4F712D5026690CE900FACFB5 /* Info.plist */,
 			);
 			path = SRSNetworkTests;
@@ -399,6 +402,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F712D4F26690CE900FACFB5 /* SRSNetworkTests.swift in Sources */,
+				4F4C861426994F4000D722A8 /* APIClientTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

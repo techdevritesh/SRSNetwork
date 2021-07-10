@@ -10,8 +10,8 @@ import Alamofire
 import AlamofireObjectMapper
 import ObjectMapper
 
-class APIClient {
-    static func callAPI<T>(completion: @escaping (Result<T?>) -> Void) where T: Codable {
+open class APIClient {
+    static public func callAPI<T>(completion: @escaping (Result<T?>) -> Void) where T: Codable {
         do {
             let request = try APIRouter.allTasks.asURLRequest()
             Alamofire.request(request).responseData(completionHandler: {response in
